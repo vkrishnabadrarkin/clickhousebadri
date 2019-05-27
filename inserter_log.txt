@@ -1,0 +1,6 @@
+2019-03-16 13:45:48 - table: event_time_batch - db: merge_tree - inserted: 3650 - took: 31.62 - bulk size: 10 - events per day: 10 - workers: 10
+2019-03-16 13:52:00 - table: event_time_single - db: merge_tree - inserted: 3650 - took: 371.52 - bulk size: 1 - events per day: 10 - workers: 10
+2019-03-16 13:52:31 - table: event_time_order_func_batch - db: merge_tree - inserted: 3650 - took: 30.5 - bulk size: 10 - events per day: 10 - workers: 10
+2019-03-16 13:59:18 - table: event_time_order_func_single - db: merge_tree - inserted: 3650 - took: 406.75 - bulk size: 1 - events per day: 10 - workers: 10
+2019-03-16 13:59:52 - table: event_date_batch - db: merge_tree - inserted: 3650 - took: 33.54 - bulk size: 10 - events per day: 10 - workers: 10
+2019-03-16 14:07:34 - table: event_date_single - db: merge_tree - inserted: 3650 - took: 461.13 - bulk size: 1 - events per day: 10 - workers: 10

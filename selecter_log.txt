@@ -1,0 +1,48 @@
+
+ 2019-03-16 14:08:07
+SELECT count() from merge_tree.event_time_batch group by toYYYYMM(time)
+ attempt 0 took: 0.3211s
+ attempt 1 took: 0.1643s
+ attempt 2 took: 0.16301s
+
+ 2019-03-16 14:08:08
+SELECT count() from merge_tree.event_time_single group by toYYYYMM(time)
+ attempt 0 took: 0.47066s
+ attempt 1 took: 0.30461s
+ attempt 2 took: 0.43202s
+
+ 2019-03-16 14:08:10
+SELECT count() from merge_tree.event_time_order_func_batch group by toYYYYMM(time)
+ attempt 0 took: 0.35406s
+ attempt 1 took: 0.28435s
+ attempt 2 took: 0.21678s
+
+ 2019-03-16 14:08:11
+SELECT count() from merge_tree.event_time_order_func_single group by toYYYYMM(time)
+ attempt 0 took: 0.54547s
+ attempt 1 took: 0.35575s
+ attempt 2 took: 0.35896s
+
+ 2019-03-16 14:08:12
+SELECT count() from merge_tree.event_date_batch group by toYYYYMM(time)
+ attempt 0 took: 5.92967s
+ attempt 1 took: 8.06047s
+ attempt 2 took: 4.88269s
+
+ 2019-03-16 14:08:31
+SELECT count() from merge_tree.event_date_single group by toYYYYMM(time)
+ attempt 0 took: 11.38824s
+ attempt 1 took: 8.23907s
+ attempt 2 took: 9.02407s
+
+ 2019-03-16 14:09:00
+SELECT count() from merge_tree.event_date_batch group by toYYYYMM(date)
+ attempt 0 took: 6.9576s
+ attempt 1 took: 5.34873s
+ attempt 2 took: 6.12343s
+
+ 2019-03-16 14:09:19
+SELECT count() from merge_tree.event_date_single group by toYYYYMM(date)
+ attempt 0 took: 16.73915s
+ attempt 1 took: 17.78951s
+ attempt 2 took: 11.76806s

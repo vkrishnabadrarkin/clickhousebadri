@@ -1,0 +1,1 @@
+2019-05-17 11:46:01 - table: event_time_batch - db: merge_tree - inserted: 3650 - took: 22.81 - bulk size: 10 - events per day: 10 - workers: 10
